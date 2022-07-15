@@ -136,8 +136,9 @@ function triggerMouseEvent($el, type) {
         throw new Error(`no target found to trigger MouseEvent`);
     }
     const rect = el.getBoundingClientRect();
-    const left = rect.x + rect.width / 2;
-    const top = rect.y + rect.height / 2;
+    // little fix since it seems on chrome, it triggers 1px too on the left
+    const left = rect.x + 1;
+    const top = rect.y;
     return triggerEvent($el, type, {
         which: 1,
         pageX: left, layerX: left, screenX: left,

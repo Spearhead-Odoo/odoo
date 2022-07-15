@@ -17,7 +17,6 @@
 # AMAAL RU <Fabu1410@yahoo.com>, 2019
 # Shaima Safar <shaima.safar@open-inside.com>, 2019
 # Waleed Mohsen <mohsen.waleed@gmail.com>, 2019
-# Malaz Abuidris <msea@odoo.com>, 2022
 # 
 msgid ""
 msgstr ""
@@ -25,7 +24,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
-"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2022\n"
+"Last-Translator: Waleed Mohsen <mohsen.waleed@gmail.com>, 2019\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -379,7 +378,7 @@ msgstr "تاريخ الانضمام"
 #. module: membership
 #: model:ir.actions.act_window,name:membership.action_membership_invoice_view
 msgid "Join Membership"
-msgstr "الانضمام إلى العضوية "
+msgstr ""
 
 #. module: membership
 #: model:ir.model,name:membership.model_account_move

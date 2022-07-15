@@ -5,8 +5,8 @@
 # Translators:
 # Martin Trigaux, 2019
 # Jorunn D. Newth, 2019
-# Mads Søndergaard, 2021
-# Marius Stedjan <marius@stedjan.com>, 2022
+# Mads Søndergaard <mads@vkdata.dk>, 2021
+# Marius Stedjan <marius@stedjan.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-27 09:22+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
-"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2022\n"
+"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2021\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -368,8 +368,8 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
-"Python-dictionary som brukes til å sette standardverdier på nye poster for "
-"dette aliaset."
+"Python-ordbok som vil brukes til å sette standardverdier når nye oppføringer"
+" opprettes for dette aliaset."
 
 #. module: mail
 #: code:addons/mail/models/ir_actions.py:0
@@ -431,7 +431,7 @@ msgstr "Handling påkrevd"
 #: model:ir.model.fields,field_description:mail.field_ir_actions_server__state
 #: model:ir.model.fields,field_description:mail.field_ir_cron__state
 msgid "Action To Do"
-msgstr "Handling å utføre"
+msgstr "Tiltak å utføre"
 
 #. module: mail
 #: model:ir.model,name:mail.model_ir_actions_act_window_view
@@ -564,7 +564,7 @@ msgstr "Legg til"
 #: code:addons/mail/static/src/xml/chatter.xml:0
 #, python-format
 msgid "Add Attachments"
-msgstr "Legg til vedlegg"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -1058,7 +1058,7 @@ msgstr "Avbryt"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tree
 msgid "Cancel Email"
-msgstr "Avbryt e-post"
+msgstr "Avbryt epost"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -1299,7 +1299,7 @@ msgstr "Firmaer"
 #: model_terms:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 #, python-format
 msgid "Compose Email"
-msgstr "Skriv e-postmelding"
+msgstr "Skriv epostmelding"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__composition_mode
@@ -1333,7 +1333,7 @@ msgstr "Gratulerer, innboksen din er tom!"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__failure_type__smtp
 msgid "Connection failed (outgoing mail server problem)"
-msgstr "Tilkobling mislyktes (problemer med utgående e-postserver)"
+msgstr "Tilkobling mislyktes (problemer med utgående epostserver)"
 
 #. module: mail
 #: model:ir.model,name:mail.model_res_partner
@@ -1603,8 +1603,8 @@ msgid ""
 "- email (using email_from or email field)"
 msgstr ""
 "Standardmotakere:\n"
-"- partner (ved bruk av id på partner eller feltet partner_id) \n"
-"- e-post (ved bruk av feltene email_from eller email)"
+"-partner (ved bruk av id på partner eller partner_id-feltet) ELLER\n"
+"-e-post (ved bruk av epost_fra eller e-post feltet)"
 
 #. module: mail
 #: model_terms:ir.actions.act_window,help:mail.mail_shortcode_action
@@ -1633,7 +1633,7 @@ msgstr "Slett"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__auto_delete
 msgid "Delete Emails"
-msgstr "Slett e-postmeldinger"
+msgstr "Slett epostmeldinger"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__auto_delete_message
@@ -1939,12 +1939,12 @@ msgstr "Rediger abonnement"
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_search
 #: model:mail.activity.type,name:mail.mail_activity_data_email
 msgid "Email"
-msgstr "E-post"
+msgstr "Epost"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_blacklist__email
 msgid "Email Address"
-msgstr "E-postadresse"
+msgstr "Epostadresse"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_address_mixin
@@ -1954,12 +1954,12 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_view_form
 msgid "Email Alias"
-msgstr "E-postalias"
+msgstr "Epostalias"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_alias
 msgid "Email Aliases"
-msgstr "E-postaliaser"
+msgstr "Epostaliaser"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_alias_mixin
@@ -1979,7 +1979,7 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid "Email Configuration"
-msgstr "E-postoppsett"
+msgstr "Epostoppsett"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_preview_form
@@ -1989,33 +1989,33 @@ msgstr "Forhåndsvisning av e-post"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_search
 msgid "Email Search"
-msgstr "E-postsøk"
+msgstr "Epostsøk"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_notification__notification_status
 msgid "Email Status"
-msgstr "E-poststatus"
+msgstr "Epoststatus"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_ir_actions_server__template_id
 #: model:ir.model.fields,field_description:mail.field_ir_cron__template_id
 msgid "Email Template"
-msgstr "E-postmal"
+msgstr "Epostmal"
 
 #. module: mail
 #: model:ir.model,name:mail.model_email_template_preview
 msgid "Email Template Preview"
-msgstr "Forhåndsvisning av e-postmal"
+msgstr "Forhåndsvisning av epostmal"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_template
 msgid "Email Templates"
-msgstr "E-postmaler"
+msgstr "Epostmaler"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_thread
 msgid "Email Thread"
-msgstr "E-posttråd"
+msgstr "Eposttråd"
 
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_blacklist_unique_email
@@ -2046,7 +2046,7 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 msgid "Email address to redirect replies..."
-msgstr "E-postadresse svar skal omdirigeres til..."
+msgstr "Epostadresse svar skal omdirigeres til..."
 
 #. module: mail
 #: model_terms:ir.actions.act_window,help:mail.mail_blacklist_action
@@ -2063,13 +2063,13 @@ msgstr ""
 #. module: mail
 #: model:ir.model,name:mail.model_mail_compose_message
 msgid "Email composition wizard"
-msgstr "Veiviser for utforming av e-post"
+msgstr "Veiviser for utforming av epost"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_message_subtype_form
 msgid "Email message"
-msgstr "E-postmelding"
+msgstr "Epostmelding"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_resend_message
@@ -2087,7 +2087,7 @@ msgstr ""
 #: model:ir.ui.menu,name:mail.menu_mail_mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tree
 msgid "Emails"
-msgstr "E-post"
+msgstr "Epost"
 
 #. module: mail
 #. openerp-web
@@ -2166,7 +2166,7 @@ msgstr "Alle"
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__notification_status__exception
 #: model:mail.activity.type,name:mail.mail_activity_data_warning
 msgid "Exception"
-msgstr "Unntak"
+msgstr "Avvik"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_search
@@ -2247,7 +2247,7 @@ msgstr ""
 #: code:addons/mail/models/ir_model.py:0
 #, python-format
 msgid "Field \"Mail Thread\" cannot be changed to \"False\"."
-msgstr "Feltet 'E-posttråd' kan ikke endres til 'Usann'."
+msgstr "Feltet 'Eposttråd' kan ikke endres til 'Usann'."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__field_desc
@@ -2460,7 +2460,7 @@ msgstr "HTTP-ruting"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__email
 msgid "Handle by Emails"
-msgstr "Håndter per e-post"
+msgstr "Håndter per epost"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
@@ -3159,7 +3159,7 @@ msgstr "Loggfør eller planlegg en aktivitet"
 #: model:ir.model.fields,field_description:mail.field_mail_notification__mail_id
 #, python-format
 msgid "Mail"
-msgstr "E-post"
+msgstr "Epost"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_ir_model__is_mail_activity
@@ -3172,7 +3172,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_mail__mail_activity_type_id
 #: model:ir.model.fields,field_description:mail.field_mail_message__mail_activity_type_id
 msgid "Mail Activity Type"
-msgstr "E-postaktivitetstype"
+msgstr "Epostaktivitetstype"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_blacklist
@@ -3191,24 +3191,24 @@ msgstr ""
 #: code:addons/mail/static/src/xml/discuss.xml:0
 #, python-format
 msgid "Mail Body"
-msgstr "E-post-brødtekst"
+msgstr "Epost-brødtekst"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_view_form
 msgid "Mail Channel Form"
-msgstr "E-postkanalskjema"
+msgstr "Epostkanalskjema"
 
 #. module: mail
 #: code:addons/mail/models/mail_mail.py:0
 #, python-format
 msgid "Mail Delivery Failed"
-msgstr "E-postlevering mislyktes"
+msgstr "Epostlevering mislyktes"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_ir_model__is_mail_thread
 #: model_terms:ir.ui.view,arch_db:mail.model_search_view
 msgid "Mail Thread"
-msgstr "E-posttråd"
+msgstr "Eposttråd"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_tracking_value
@@ -3383,14 +3383,14 @@ msgstr "Meldings-ID"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_notification
 msgid "Message Notifications"
-msgstr "Meldingsvarsler"
+msgstr "Meldingsvarslinger"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__record_name
 #: model:ir.model.fields,field_description:mail.field_mail_mail__record_name
 #: model:ir.model.fields,field_description:mail.field_mail_message__record_name
 msgid "Message Record Name"
-msgstr "Post-navn på melding"
+msgstr "Melding rekord navn."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype__name
@@ -3406,7 +3406,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__email_to
 msgid "Message recipients (emails)"
-msgstr "Meldingsmottakere (e-post)"
+msgstr "Meldingsmottakere (epost)"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__references
@@ -3695,7 +3695,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_message__needaction
 #: model_terms:ir.ui.view,arch_db:mail.view_message_search
 msgid "Need Action"
-msgstr "Trenger behandling"
+msgstr "Trenger tiltak"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__need_moderation
@@ -3913,7 +3913,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/thread.xml:0
 #, python-format
 msgid "No starred messages"
-msgstr "Ingen meldinger merket med stjerne"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__no_auto_thread
@@ -4258,19 +4258,19 @@ msgstr "Utgående"
 #: model:ir.model.fields,field_description:mail.field_email_template_preview__mail_server_id
 #: model:ir.model.fields,field_description:mail.field_mail_template__mail_server_id
 msgid "Outgoing Mail Server"
-msgstr "Utgående e-postserver"
+msgstr "Utgående epostserver"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_mail
 msgid "Outgoing Mails"
-msgstr "Utgående e-postmeldinger"
+msgstr "Utgående epostmeldinger"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__mail_server_id
 #: model:ir.model.fields,field_description:mail.field_mail_mail__mail_server_id
 #: model:ir.model.fields,field_description:mail.field_mail_message__mail_server_id
 msgid "Outgoing mail server"
-msgstr "Utgående e-postserver"
+msgstr "Utgående epostserver"
 
 #. module: mail
 #. openerp-web
@@ -4285,7 +4285,7 @@ msgstr "Forfalt"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid "Override author's email"
-msgstr "Overstyr forfatters e-post"
+msgstr "Overstyr forfatters epost"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias__alias_user_id
@@ -4409,7 +4409,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_mail__auto_delete
 #: model:ir.model.fields,help:mail.field_mail_template__auto_delete
 msgid "Permanently delete this email after sending it, to save space"
-msgstr "Slett denne e-postmeldingen når den er sendt for å spare plass"
+msgstr "Slett denne epostmeldingen når den er sendt for å spare plass"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview__copyvalue
@@ -4692,7 +4692,7 @@ msgstr "Anbefalte neste aktiviteter"
 #: model:ir.model.fields,field_description:mail.field_mail_alias_mixin__alias_force_thread_id
 #: model:ir.model.fields,field_description:mail.field_mail_channel__alias_force_thread_id
 msgid "Record Thread ID"
-msgstr "Post-id på Tråd"
+msgstr "Tråd-ID for oppføring"
 
 #. module: mail
 #: code:addons/mail/models/mail_message.py:0
@@ -5088,13 +5088,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_wizard_invite__send_mail
 #: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__state__email
 msgid "Send Email"
-msgstr "Send e-post"
+msgstr "Send epost"
 
 #. module: mail
 #: code:addons/mail/models/mail_template.py:0
 #, python-format
 msgid "Send Mail (%s)"
-msgstr "Send e-post (%s)"
+msgstr "Send epost (%s)"
 
 #. module: mail
 #. openerp-web
@@ -5152,7 +5152,7 @@ msgstr "Send meldinger"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__email_send
 msgid "Send messages by email"
-msgstr "Send meldinger som e-post"
+msgstr "Send meldinger som epost"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview__email_from
@@ -5177,7 +5177,7 @@ msgstr "Sendefeil"
 #: code:addons/mail/static/src/xml/discuss.xml:0
 #, python-format
 msgid "Sends messages by email"
-msgstr "Sender meldinger som e-post"
+msgstr "Sender meldinger som epost"
 
 #. module: mail
 #. openerp-web
@@ -5224,7 +5224,7 @@ msgstr "Vis"
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model_terms:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Show all records which has next action date is before today"
-msgstr "Vis alle poster som har neste handlingsdato før dagen i dag"
+msgstr "Vis alle oppføringer som har en neste tiltak-dato før dagen i dag"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
@@ -5575,7 +5575,7 @@ msgstr "Til"
 #: model:ir.model.fields,field_description:mail.field_email_template_preview__email_to
 #: model:ir.model.fields,field_description:mail.field_mail_template__email_to
 msgid "To (Emails)"
-msgstr "Til (e-post)"
+msgstr "Til (epost)"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview__partner_to
@@ -5702,7 +5702,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_res_partner__activity_exception_decoration
 #: model:ir.model.fields,help:mail.field_res_users__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Type unntaks-aktivitet på posten."
+msgstr "Type for unntaksaktiviteten på posten."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__uuid
@@ -5746,7 +5746,7 @@ msgstr "Avfølg"
 msgid ""
 "Unfortunately this email alias is already used, please choose a unique one"
 msgstr ""
-"Dette e-postaliaset er dessverre allerede i bruk, vennligst velg et annet"
+"Dette epostaliaset er dessverre allerede i bruk, vennligst velg et annet"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_type_view_tree
@@ -5856,7 +5856,7 @@ msgstr ""
 #: model:mail.activity.type,name:mail.mail_activity_data_upload_document
 #, python-format
 msgid "Upload Document"
-msgstr "Last opp dokument"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -5908,7 +5908,7 @@ msgstr "Bruk mal"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Use your own email servers"
-msgstr "Bruk dine egne e-postservere"
+msgstr "Bruk dine egne epostservere"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype__sequence
@@ -6198,7 +6198,6 @@ msgstr ""
 msgid ""
 "You can mark any message as 'starred', and it shows up in this mailbox."
 msgstr ""
-"Hvis du merker meldinger med stjerne, vises de i denne meldingsboksen."
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
@@ -6463,7 +6462,7 @@ msgstr "for "
 #: code:addons/mail/static/src/xml/thread.xml:0
 #, python-format
 msgid "from"
-msgstr "fra"
+msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.message_origin_link
@@ -6573,7 +6572,7 @@ msgstr "les mer"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_preview_form
 msgid "record:"
-msgstr "post:"
+msgstr "oppføring:"
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:0

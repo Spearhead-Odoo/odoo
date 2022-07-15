@@ -156,15 +156,12 @@ class Mailing(models.Model):
         if issubclass(type(target), self.pool['mail.thread.phone']):
             phone_fields = ['phone_sanitized']
         elif issubclass(type(target), self.pool['mail.thread']):
-            phone_fields = [
-                fname for fname in target._sms_get_number_fields()
-                if fname in target._fields and target._fields[fname].store
-            ]
+            phone_fields = target._sms_get_number_fields()
         else:
             phone_fields = []
-            if 'mobile' in target._fields and target._fields['mobile'].store:
+            if 'mobile' in target._fields:
                 phone_fields.append('mobile')
-            if 'phone' in target._fields and target._fields['phone'].store:
+            if 'phone' in target._fields:
                 phone_fields.append('phone')
         if not phone_fields:
             raise UserError(_("Unsupported %s for mass SMS") % self.mailing_model_id.name)

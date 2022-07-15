@@ -19,7 +19,6 @@ var WebsiteRoot = publicRootData.PublicRoot.extend({
     }),
     custom_events: _.extend({}, publicRootData.PublicRoot.prototype.custom_events || {}, {
         'ready_to_clean_for_save': '_onWidgetsStopRequest',
-        'will_remove_snippet': '_onWidgetsStopRequest',
         seo_object_request: '_onSeoObjectRequest',
     }),
 
@@ -158,7 +157,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend({
             },
         })
         .then(function (result) {
-            $data.toggleClass("css_published", result).toggleClass("css_unpublished", !result);
+            $data.toggleClass("css_unpublished css_published");
             $data.find('input').prop("checked", result);
             $data.parents("[data-publish]").attr("data-publish", +result ? 'on' : 'off');
         });
