@@ -4,9 +4,9 @@
 # 
 # Translators:
 # Eirik Halvorsen <eirik386@gmail.com>, 2019
+# Marius Stedjan <marius@stedjan.com>, 2019
 # Martin Trigaux, 2020
 # Jorunn D. Newth, 2021
-# Marius Stedjan <marius@stedjan.com>, 2022
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-27 10:17+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
-"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2022\n"
+"Last-Translator: Jorunn D. Newth, 2021\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,14 +41,14 @@ msgstr "og"
 #: code:addons/web/static/src/js/views/control_panel/search/search_facet.js:0
 #, python-format
 msgid " or "
-msgstr " eller "
+msgstr "eller"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/field_utils.js:0
 #, python-format
 msgid " records"
-msgstr "poster"
+msgstr "oppføringer"
 
 #. module: web
 #. openerp-web
@@ -208,12 +208,12 @@ msgstr "(nolabel)"
 #: code:addons/web/static/src/js/fields/field_utils.js:0
 #, python-format
 msgid "1 record"
-msgstr "1 post"
+msgstr "1 oppføring"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_background
 msgid "<i class=\"fa fa-at\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
-msgstr "<i class=\"fa fa-at\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
+msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_background
@@ -426,7 +426,7 @@ msgstr "Legg til notat"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Add tag"
-msgstr "Legg til etikett"
+msgstr "Legg til tag"
 
 #. module: web
 #. openerp-web
@@ -567,7 +567,6 @@ msgstr "Noen"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/fields/basic_fields.js:0
 #: code:addons/web/static/src/xml/base.xml:0
 #: code:addons/web/static/src/xml/base.xml:0
 #: code:addons/web/static/src/xml/base.xml:0
@@ -596,14 +595,15 @@ msgstr "Arkiver alle"
 #, python-format
 msgid ""
 "Are you sure that you want to archive all the records from this column?"
-msgstr "Er du sikker på at du vil arkivere alle postene i denne kolonnen?"
+msgstr ""
+"Er du sikker på at du vil arkivere alle oppføringene i denne kolonnen?"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/list/list_controller.js:0
 #, python-format
 msgid "Are you sure that you want to archive all the selected records?"
-msgstr "Er du sikker på at du vil arkivere de valgte postene?"
+msgstr "Er du sikker på at du vil arkivere de valgte oppføringene?"
 
 #. module: web
 #. openerp-web
@@ -632,7 +632,7 @@ msgstr "Er du sikker på at du vil fjerne dette filteret?"
 #: code:addons/web/static/src/js/views/calendar/calendar_controller.js:0
 #, python-format
 msgid "Are you sure you want to delete this record ?"
-msgstr "Er du sikker på at du vil fjerne denne posten?"
+msgstr "Er du sikker på at du vil fjerne denne oppføringen?"
 
 #. module: web
 #. openerp-web
@@ -818,7 +818,6 @@ msgstr "Attributtet 'date_start' er ikke definert for kalendervisningen."
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: code:addons/web/static/src/js/core/dialog.js:0
-#: code:addons/web/static/src/js/fields/basic_fields.js:0
 #: code:addons/web/static/src/js/fields/relational_fields.js:0
 #: code:addons/web/static/src/js/fields/signature.js:0
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
@@ -1142,7 +1141,7 @@ msgstr "Opprett %s"
 #: code:addons/web/static/src/xml/menu.xml:0
 #, python-format
 msgid "Create a new record"
-msgstr "Opprett ny post"
+msgstr "Opprett ny oppføring"
 
 #. module: web
 #. openerp-web
@@ -1184,7 +1183,7 @@ msgstr "Opprettet av:"
 #: code:addons/web/static/src/xml/debug.xml:0
 #, python-format
 msgid "Creation Date:"
-msgstr "Opprettet:"
+msgstr "Opprettet dato:"
 
 #. module: web
 #. openerp-web
@@ -1326,7 +1325,7 @@ msgstr "Forkast"
 #: code:addons/web/static/src/xml/menu.xml:0
 #, python-format
 msgid "Discard a record modification"
-msgstr "Forkast endring av post"
+msgstr "Forkast endring av oppføring"
 
 #. module: web
 #. openerp-web
@@ -1480,7 +1479,7 @@ msgstr "Rediger visning:"
 #: code:addons/web/static/src/xml/menu.xml:0
 #, python-format
 msgid "Edit a record"
-msgstr "Rediger post"
+msgstr "Rediger oppføring"
 
 #. module: web
 #. openerp-web
@@ -1488,12 +1487,12 @@ msgstr "Rediger post"
 #: model_terms:ir.ui.view,arch_db:web.login
 #, python-format
 msgid "Email"
-msgstr "E-post"
+msgstr "Epost"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_standard
 msgid "Email:"
-msgstr "E-post:"
+msgstr "Epost:"
 
 #. module: web
 #. openerp-web
@@ -1551,7 +1550,7 @@ msgstr "Eksport"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Export All"
-msgstr "Eksportert alt"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1995,7 +1994,7 @@ msgstr "Siste 365 dager"
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last 5 Years"
-msgstr "Siste 5 år"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2009,28 +2008,28 @@ msgstr "Siste 7 dager"
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last Month"
-msgstr "Forrige måned"
+msgstr "Siste måned"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last Quarter"
-msgstr "Forrige kvartal"
+msgstr "Siste kvartal"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last Week"
-msgstr "Forrige uke"
+msgstr "Siste uke"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last Year"
-msgstr "Forrige år"
+msgstr "Siste år"
 
 #. module: web
 #. openerp-web
@@ -2166,7 +2165,7 @@ msgstr "Mac"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
 msgid "Mail:"
-msgstr "E-post:"
+msgstr "Epost:"
 
 #. module: web
 #. openerp-web
@@ -2226,14 +2225,14 @@ msgstr "Match"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Match records with"
-msgstr "Finn poster med"
+msgstr "Finn oppføringer med"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Match records with the following rule:"
-msgstr "Finn poster med følgende regel:"
+msgstr "Finn oppføringer med følgende regel:"
 
 #. module: web
 #. openerp-web
@@ -2278,7 +2277,7 @@ msgstr "Metode:"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
 msgid "Missing Record"
-msgstr "Manglende post"
+msgstr "Manglende oppføring"
 
 #. module: web
 #. openerp-web
@@ -2461,7 +2460,7 @@ msgstr "Ingen metadata tilgjengelig"
 #: code:addons/web/static/src/js/fields/field_utils.js:0
 #, python-format
 msgid "No records"
-msgstr "Ingen poster"
+msgstr "Ingen oppføringer"
 
 #. module: web
 #. openerp-web
@@ -2690,14 +2689,14 @@ msgstr "Åpne Visning"
 #: code:addons/web/static/src/xml/menu.xml:0
 #, python-format
 msgid "Open the next record"
-msgstr "Åpne neste post"
+msgstr "Åpne neste oppføring"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/menu.xml:0
 #, python-format
 msgid "Open the previous record"
-msgstr "Åpne forrige post"
+msgstr "Åpne forrige oppføring"
 
 #. module: web
 #. openerp-web
@@ -2867,7 +2866,7 @@ msgstr "Pivot"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Pivot settings"
-msgstr "Pivotinnstillinger"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3140,7 +3139,7 @@ msgstr "Fjern fra favoritter"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Remove tag"
-msgstr "Fjern etikett"
+msgstr "Fjern tag"
 
 #. module: web
 #. openerp-web
@@ -3252,14 +3251,14 @@ msgstr "Lagre som ..."
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Save Current Search"
-msgstr "Lagre nåværende søk"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/menu.xml:0
 #, python-format
 msgid "Save a record"
-msgstr "Lagre post"
+msgstr "Lagre oppføring"
 
 #. module: web
 #. openerp-web
@@ -3295,7 +3294,7 @@ msgstr "Søk %(field)s ved: %(value)s"
 #: code:addons/web/static/src/js/views/control_panel/search/search_bar_autocomplete_sources.js:0
 #, python-format
 msgid "Search %(field)s for: %(value)s"
-msgstr "Søk etter %(field)s: %(value)s"
+msgstr "%(value)sSøk %(field)s etter: "
 
 #. module: web
 #. openerp-web
@@ -3387,7 +3386,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/basic_fields.js:0
 #, python-format
 msgid "Selected records"
-msgstr "Valgte poster"
+msgstr "Valgte oppføringer"
 
 #. module: web
 #. openerp-web
@@ -3576,7 +3575,7 @@ msgstr "Syntaksfeil"
 #: code:addons/web/static/src/js/fields/relational_fields.js:0
 #, python-format
 msgid "Tags"
-msgstr "Etiketter"
+msgstr "Tagger"
 
 #. module: web
 #. openerp-web
@@ -3698,7 +3697,9 @@ msgstr ""
 msgid ""
 "The record has been modified, your changes will be discarded. Do you want to"
 " proceed?"
-msgstr "Posten er endret. Endringene vil bli forkastet. Vil du fortsette?"
+msgstr ""
+"Oppføringen er blitt endret, dine endringer vil bli forkastet. Vil du "
+"fortsette?"
 
 #. module: web
 #. openerp-web
@@ -3766,7 +3767,7 @@ msgstr "Denne uka"
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "This Year"
-msgstr "Dette året"
+msgstr "Dette år"
 
 #. module: web
 #. openerp-web
@@ -4416,7 +4417,7 @@ msgstr "for omtrent en time siden"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "all records"
-msgstr "alle poster"
+msgstr "alle oppføringer"
 
 #. module: web
 #. openerp-web
@@ -4710,7 +4711,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "record(s)"
-msgstr "post(er)"
+msgstr "oppføring(er)"
 
 #. module: web
 #. openerp-web
@@ -4731,7 +4732,7 @@ msgstr "gjenstående)"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "search"
-msgstr "søk"
+msgstr ""
 
 #. module: web
 #. openerp-web

@@ -12,8 +12,6 @@
 # Manel Fernandez Ramirez <manelfera@outlook.com>, 2020
 # M Palau <mpalau@tda.ad>, 2020
 # Arnau Ros, 2020
-# marcescu, 2022
-# eriiikgt, 2022
 # 
 msgid ""
 msgstr ""
@@ -21,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:13+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
-"Last-Translator: eriiikgt, 2022\n"
+"Last-Translator: Arnau Ros, 2020\n"
 "Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -94,7 +92,7 @@ msgstr "Posar a la llista negra aquest camp per als formularis web."
 #. module: website_form
 #: model:ir.model.fields,field_description:website_form.field_ir_model_fields__website_form_blacklisted
 msgid "Blacklisted in web forms"
-msgstr "Llista negra en formularis web"
+msgstr ""
 
 #. module: website_form
 #. openerp-web
@@ -126,7 +124,7 @@ msgstr "Data"
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.snippet_options
 msgid "Date &amp; Time"
-msgstr "Data &amp; Hora"
+msgstr ""
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.snippet_options
@@ -149,7 +147,7 @@ msgstr ""
 #. module: website_form
 #: model:ir.model.fields,help:website_form.field_ir_model__website_form_access
 msgid "Enable the form builder feature for this model."
-msgstr "Habilitar la funció de creació de formularis per a aquest model."
+msgstr ""
 
 #. module: website_form
 #. openerp-web
@@ -162,7 +160,7 @@ msgstr "Error"
 #. module: website_form
 #: model:ir.model.fields,field_description:website_form.field_ir_model__website_form_default_field_id
 msgid "Field for custom form data"
-msgstr "Camp per a dades de formularis personalitzats"
+msgstr ""
 
 #. module: website_form
 #: model:ir.model,name:website_form.model_ir_model_fields
@@ -180,8 +178,6 @@ msgid ""
 "Form action label. Ex: crm.lead could be 'Send an e-mail' and project.issue "
 "could be 'Create an Issue'."
 msgstr ""
-"Etiqueta d'acció del formulari. Per exemple: crm.lead podria ser 'Enviar un "
-"correu electrònic' i project.issue podria ser 'Crear una incidència'."
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.snippet_options
@@ -191,12 +187,12 @@ msgstr "Ocult"
 #. module: website_form
 #: model:ir.model.fields,field_description:website_form.field_ir_model__website_form_label
 msgid "Label for form action"
-msgstr "Etiqueta per a l'acció del formulari"
+msgstr ""
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.snippet_options
 msgid "Long Text"
-msgstr "Text llarg"
+msgstr ""
 
 #. module: website_form
 #: code:addons/website_form/controllers/main.py:0
@@ -212,14 +208,14 @@ msgstr "Models"
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.snippet_options
 msgid "Multiple Checkboxes"
-msgstr "Caselles de verificació múltiples"
+msgstr ""
 
 #. module: website_form
 #. openerp-web
 #: code:addons/website_form/static/src/xml/website_form_editor.xml:0
 #, python-format
 msgid "No matching record !"
-msgstr "¡No hi ha registres que coincideixin !"
+msgstr ""
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.snippet_options
@@ -232,7 +228,7 @@ msgstr "Número"
 #: code:addons/website_form/static/src/js/website_form_editor.js:0
 #, python-format
 msgid "Option 1"
-msgstr "Opció 1"
+msgstr ""
 
 #. module: website_form
 #. openerp-web
@@ -240,7 +236,7 @@ msgstr "Opció 1"
 #: code:addons/website_form/static/src/js/website_form_editor.js:0
 #, python-format
 msgid "Option 2"
-msgstr "Opció 2"
+msgstr ""
 
 #. module: website_form
 #. openerp-web
@@ -248,13 +244,13 @@ msgstr "Opció 2"
 #: code:addons/website_form/static/src/js/website_form_editor.js:0
 #, python-format
 msgid "Option 3"
-msgstr "Opció 3"
+msgstr ""
 
 #. module: website_form
 #: code:addons/website_form/controllers/main.py:0
 #, python-format
 msgid "Other Information:"
-msgstr "Altres informacions:"
+msgstr ""
 
 #. module: website_form
 #. openerp-web
@@ -269,7 +265,7 @@ msgstr "Número de telèfon"
 #: code:addons/website_form/static/src/xml/website_form.xml:0
 #, python-format
 msgid "Please fill in the form correctly."
-msgstr "Si us plau, empleni el formulari correctament."
+msgstr ""
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.snippet_options
@@ -281,7 +277,7 @@ msgstr "Botons d'opció"
 #: code:addons/website_form/static/src/js/website_form_editor_registry.js:0
 #, python-format
 msgid "Recipient Email"
-msgstr "Correu electrònic del destinatari"
+msgstr ""
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.snippet_options
@@ -311,8 +307,6 @@ msgstr "Enviar"
 msgid ""
 "Specify the field which will contain meta and custom form fields datas."
 msgstr ""
-"Especifiqueu el camp que contindrà dades de camps meta i de formulari "
-"personalitzats."
 
 #. module: website_form
 #. openerp-web
@@ -357,7 +351,7 @@ msgstr "El formulari ha estat enviat correctament."
 #: code:addons/website_form/controllers/main.py:0
 #, python-format
 msgid "This message has been posted on your website!"
-msgstr "Aquest missatge ha estat publicat en el seu lloc web."
+msgstr ""
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.res_config_settings_view_form
@@ -367,7 +361,7 @@ msgstr ""
 #. module: website_form
 #: model:ir.model.fields,help:website_form.field_ir_model__website_form_key
 msgid "Used in FormBuilder Registry"
-msgstr "S'utilitza en el Registre de FormBuilder"
+msgstr ""
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.contactus_thanks_ir_ui_view
@@ -383,12 +377,12 @@ msgstr "Lloc web"
 #. module: website_form
 #: model:ir.model.fields,field_description:website_form.field_ir_model__website_form_key
 msgid "Website Form Key"
-msgstr "Clau del formulari del lloc web"
+msgstr ""
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.ir_model_view
 msgid "Website Forms"
-msgstr "Formularis del lloc web"
+msgstr ""
 
 #. module: website_form
 #: model:ir.model.fields,help:website_form.field_res_config_settings__website_form_enable_metadata

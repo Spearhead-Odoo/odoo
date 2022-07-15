@@ -36,7 +36,6 @@
 # Saleh Albannay <saleh@cm.codes>, 2020
 # Zaid J. Barghouthi <barghouthi.z@gmail.com>, 2021
 # Rachid Al Assir <rachidalassir@gmail.com>, 2021
-# Mustafa J. Kadhem <safi2266@gmail.com>, 2022
 # Malaz Abuidris <msea@odoo.com>, 2022
 # 
 msgid ""
@@ -5360,9 +5359,6 @@ msgid ""
 "Repair Products from helpdesk tickets\n"
 "    "
 msgstr ""
-"\n"
-"إصلاح المنتجات من تذاكر مكتب المساعدة\n"
-"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_fetchmail
@@ -7401,7 +7397,7 @@ msgstr "%S - الثواني [00,61].\""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_lang_form
 msgid "%Y - Year with century.\""
-msgstr "%Y - السنة مع القرن.\" "
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_lang_form
@@ -10240,7 +10236,7 @@ msgstr "نوع الربط"
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__binding_view_types
 #: model:ir.model.fields,field_description:base.field_ir_cron__binding_view_types
 msgid "Binding View Types"
-msgstr "فرض طرق العرض "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_blog
@@ -14156,7 +14152,7 @@ msgstr "تنسيق البريد الإلكتروني \"الاسم <email@domain>
 #: model:ir.model.fields,field_description:base.field_res_partner__email_formatted
 #: model:ir.model.fields,field_description:base.field_res_users__email_formatted
 msgid "Formatted Email"
-msgstr "البريد الإلكتروني المنسق"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_forum
@@ -15605,7 +15601,7 @@ msgstr "استيراد / تصدير"
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_amazon
 msgid "Import Amazon orders and sync deliveries"
-msgstr "استيراد طلبات أمازون ومزامنة التوصيلات "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_facturx
@@ -18964,7 +18960,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module__to_buy
 msgid "Odoo Enterprise Module"
-msgstr "تطبيق أودو للمؤسسات "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_mail
@@ -20889,7 +20885,7 @@ msgstr "محور"
 #. module: base
 #: model:ir.module.module,summary:base.module_project_forecast
 msgid "Plan your resources on project tasks"
-msgstr "خطط لمواردك في مهام المشروع "
+msgstr ""
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_human_resources_planning
@@ -21670,7 +21666,7 @@ msgstr "حقل Qweb واحد لواحد"
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_monetary
 msgid "Qweb Field Monetary"
-msgstr "حقل Qweb نقدي"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_relative
@@ -21813,7 +21809,7 @@ msgstr "قواعد السجلات"
 #: code:addons/models.py:0 code:addons/models.py:0
 #, python-format
 msgid "Records:"
-msgstr "السجلات:"
+msgstr ""
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_human_resources_recruitment
@@ -21862,7 +21858,7 @@ msgstr "تاريخ رقم الإشارة"
 #. module: base
 #: model:ir.module.category,name:base.module_category_human_resources_referrals
 msgid "Referrals"
-msgstr "الإحالات "
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__parent_id
@@ -21965,7 +21961,7 @@ msgstr "إزالة الإجراء القريني المرتبط بهذا الت�
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_renting
 msgid "Rental"
-msgstr "تأجير "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_stock_renting
@@ -22309,7 +22305,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mass_mailing_sms
 msgid "SMS Marketing"
-msgstr "التسويق عبر الرسائل النصية القصيرة "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_marketing_automation_sms
@@ -24195,7 +24191,7 @@ msgstr "كائن قاعدة البيانات التي سيُرفق به هذا �
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users__company_id
 msgid "The default company for this user."
-msgstr "الشركة الافتراضية لهذا المستخدم. "
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.demo_failures_dialog
@@ -26494,7 +26490,7 @@ msgstr "خطأ بـWkhtmltopdf (كود الخطأ : %s). الرسالة: %s"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_work_entry
 msgid "Work Entries"
-msgstr "قيود العمل "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp_workorder

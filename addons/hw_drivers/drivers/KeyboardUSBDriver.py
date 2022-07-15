@@ -8,7 +8,6 @@ import logging
 from lxml import etree
 import os
 from pathlib import Path
-import re
 import subprocess
 import time
 from threading import Lock
@@ -127,7 +126,7 @@ class KeyboardUSBDriver(Driver):
             else:
                 manufacturer = usb.util.get_string(self.dev, self.dev.iManufacturer)
                 product = usb.util.get_string(self.dev, self.dev.iProduct)
-            return re.sub(r"[^\w \-+/*&]", '', "%s - %s" % (manufacturer, product))
+            return ("%s - %s") % (manufacturer, product)
         except ValueError as e:
             _logger.warning(e)
             return _('Unknown input device')

@@ -47,10 +47,9 @@ class MailTemplate(models.Model):
                     qr_pdf = base64.b64encode(qr_pdf)
                     new_attachments.append((qr_report_name, qr_pdf))
 
-                record_dict = multi_mode and rslt[res_id] or rslt
-                attachments_list = record_dict.get('attachments', False)
+                attachments_list = multi_mode and rslt[res_id].get('attachments', False) or rslt.get('attachments', False)
                 if attachments_list:
                     attachments_list.extend(new_attachments)
                 else:
-                    record_dict['attachments'] = new_attachments
+                    rslt[res_id]['attachments'] = new_attachments
         return rslt

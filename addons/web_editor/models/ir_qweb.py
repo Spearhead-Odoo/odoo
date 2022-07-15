@@ -53,11 +53,9 @@ class QWeb(models.AbstractModel):
         view_id = View.get_view_id(el.attrib.get('t-call'))
         name = View.browse(view_id).name
         thumbnail = el.attrib.pop('t-thumbnail', "oe-thumbnail")
-        forbid_sanitize = el.attrib.get('t-forbid-sanitize')
-        div = u'<div name="%s" data-oe-type="snippet" data-oe-thumbnail="%s" %s>' % (
+        div = u'<div name="%s" data-oe-type="snippet" data-oe-thumbnail="%s">' % (
             escape(pycompat.to_text(name)),
-            escape(pycompat.to_text(thumbnail)),
-            'data-oe-forbid-sanitize="true"' if forbid_sanitize else '',
+            escape(pycompat.to_text(thumbnail))
         )
         return [self._append(ast.Str(div))] + self._compile_node(el, options) + [self._append(ast.Str(u'</div>'))]
 
@@ -328,15 +326,6 @@ class HTML(models.AbstractModel):
     _name = 'ir.qweb.field.html'
     _description = 'Qweb Field HTML'
     _inherit = 'ir.qweb.field.html'
-
-    @api.model
-    def attributes(self, record, field_name, options, values=None):
-        attrs = super().attributes(record, field_name, options, values)
-        if options.get('inherit_branding'):
-            field = record._fields[field_name]
-            if field.sanitize:
-                attrs['data-oe-sanitize'] = 1
-        return attrs
 
     @api.model
     def from_html(self, model, field, element):

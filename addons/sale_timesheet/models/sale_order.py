@@ -180,12 +180,12 @@ class SaleOrderLine(models.Model):
         """ Hook for validated timesheet in addionnal module """
         return [('project_id', '!=', False)]
 
-    @api.depends('product_id.type')
+    @api.depends('product_id')
     def _compute_is_service(self):
         for so_line in self:
             so_line.is_service = so_line.product_id.type == 'service'
 
-    @api.depends('product_id.type')
+    @api.depends('product_id')
     def _compute_product_updatable(self):
         for line in self:
             if line.product_id.type == 'service' and line.state == 'sale':
