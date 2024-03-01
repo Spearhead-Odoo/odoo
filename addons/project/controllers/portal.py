@@ -36,11 +36,14 @@ class CustomerPortal(CustomerPortal):
         }
         return self._get_page_view_values(project, access_token, values, 'my_projects_history', False, **kwargs)
 
+    def _prepare_domain_project(self):
+        return []
+
     @http.route(['/my/projects', '/my/projects/page/<int:page>'], type='http', auth="user", website=True)
     def portal_my_projects(self, page=1, date_begin=None, date_end=None, sortby=None, **kw):
         values = self._prepare_portal_layout_values()
         Project = request.env['project.project']
-        domain = []
+        domain = self._prepare_domain_project()
 
         searchbar_sortings = {
             'date': {'label': _('Newest'), 'order': 'create_date desc'},
@@ -51,7 +54,7 @@ class CustomerPortal(CustomerPortal):
         order = searchbar_sortings[sortby]['order']
 
         # archive groups - Default Group By 'create_date'
-        archive_groups = self._get_archive_groups('project.project', domain) if values.get('my_details') else []
+        archive_groups = self._get_archive_groups('project.project', []) if values.get('my_details') else []
         if date_begin and date_end:
             domain += [('create_date', '>', date_begin), ('create_date', '<=', date_end)]
         # projects count
